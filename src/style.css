@@ -1,0 +1,70 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.card {
+    width: 355px;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.card img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.card .name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card .age {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card .city {
+
+    color: var(--text-color);
+    font-weight: 400;
+    padding: 20px;
+
+}
+
+.card .number {
+    border-top: 2px solid rgba(0, 0, 0, 0.514);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card .number li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 22px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+span {
+    color: var(--text-color);
+    font-weight: 400;
+}
